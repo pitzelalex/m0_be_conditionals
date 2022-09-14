@@ -3,7 +3,7 @@
 # Spend some time changing the variables and running the file to see how the story changes.
 
 
-door_choice = 1
+door_choice = 2
 bear_clothing = ""
 bear_choice = 1
 
@@ -35,9 +35,16 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# The code is defining a variable based on an if statement.
 # 2. What variable has a new value assigned to it after the first if statement executes?
+# The variable bear_clothing has a new value assigned after the if statement
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+# bear_clothing would be a scarf if the choice is anything other than the interger 1
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+# An if statement defining the possible branches based on the variable bear_choice, however nothing will print when the code is run.
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# "You run as fast as you can into the next room. It's full of snakes!"
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+# "You tell the bear the hat is too small and it starts to cry!"
 # 7. What is your favorite ending?
+# "You stay with the bear and become it's best friend!"
