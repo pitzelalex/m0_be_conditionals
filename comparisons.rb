@@ -85,6 +85,7 @@ puts attendees != meals
 #-------------------
 # PART 3: Logical Operators
 #-------------------
+puts ""
 
 is_hungry = true
 finished_homework = false
@@ -102,15 +103,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts "the dog loves to play and loves treats", loves_to_play == true && loves_treats == true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts "the dog loves to play and loves the dog park", loves_to_play == true && loves_dog_park == true
 
 # Determine if the dog loves to play or loves the dog park
-
+puts "the dog loves to play or loves the dog park", loves_to_play == true || loves_dog_park == true
 
 # Determine if the dog loves to play and is a puppy
-
+puts "the dog loves to play and is a puppy", loves_to_play == true && age < 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The final line came back true because I compared age to being less than 1.
+# While is_a_puppy isn't defined as a variable, a puppy is generally less than 1 year old.
