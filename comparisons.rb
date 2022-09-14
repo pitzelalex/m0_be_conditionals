@@ -60,21 +60,26 @@ puts ""
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# This compares whether 4 is less than 9. This should print: true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# This defines a variable with an interger: books as 3. It then compares if 4 is less than books.
+# This should print: false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# This defines 2 variables with intergers: friends as 6 and siblings as 2. it then compares if friends
+# is greater than siblings
+# This should print: true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# This defines 2 variables with intergers: attendees as 9 and meals as 8. it then compares if
+# attendees doesn't equal meals.
+# This should print: true
 
 
 #-------------------
